@@ -42,7 +42,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
     private void startNewActivity() {
 
-        // Need to check for login credentials
+        // TODO Need to check for login credentials
 
         Intent intent=new Intent(getApplicationContext(),MainActivity.class);
         startActivity(intent);
